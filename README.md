@@ -13,14 +13,18 @@ Within this codebase, I built the solution to a Frontend Engineer assessment on 
 
 - I used single branches for all features
 
-## Edge Cases Handled:
+- I worked with tasks on a Kanban board (I used Microsoft Todo App)
+
+- I used single branches for all features
+
+## Why I built the project this way:
 
 Though it wasn't instructed, I handled the following edge cases for better app experience;
 
 - Created a debouncer function to slow down the execution of API requests against API to filter characters by name. This was done to optimize the text filter experience.
 - Created a custom React Hook to close the mobile sidebar when the ESCAPE key is pressed.
 - The application passes episode data as a state value and access them from the Episode page. I put a check in place to handle scenarios where a user refreshes the application while in the episode page and losses the state value.
-- Used `Preact signal` for state handling instead of `useState` to increase perfomance as they use Proxies for updating VDOM. More details can be found [here](https://preactjs.com/blog/introducing-signals/). They're very life saving and worth checking out :)
+- Used `Preact signals` for state handling instead of `useState` to increase perfomance as they use Proxies for updating VDOM. More details can be found [here](https://preactjs.com/blog/introducing-signals/). They're very life saving and worth checking out :)
 
 ### Packages Used:
 
@@ -32,6 +36,16 @@ Though it wasn't instructed, I handled the following edge cases for better app e
 - eslint for linting
 - React testing library
 - Styled-Components ( for styling components using the CSS-in-JS approach)
+
+### If I had more time I would change this
+
+- Set up continuous integration to run the tests and ESLint on every Pull Request
+- Integration tests using React Testing Library
+- Add end-to-end tests with Cypress.
+- Add validations to my forms and asynchronous codes.
+- Remove some eslint warnings shown in the console
+- Remove all any types on the frontend part like [here](https://github.com/hirwablessing/fleek-frontend-assignment/blob/8b6209d5b181b5d1589c28e9190cf0cf43f4c106/src/state/index.ts#L14)
+- Refactor and refactor again.
 
 ### Installation:
 
@@ -51,13 +65,3 @@ Execute the command below to run the test suites;
 ```bash
     npm run test
 ```
-
-### If I had more time I would change this
-
-- Set up continuous integration to run the tests and ESLint on every Pull Request
-- Integration tests using React Testing Library
-- Add end-to-end tests with Cypress.
-- Add validations to my forms and asynchronous codes.
-- Remove some eslint warnings shown in the console
-- Remove all any types on the frontend part like [here](https://github.com/hirwablessing/fleek-frontend-assignment/blob/8b6209d5b181b5d1589c28e9190cf0cf43f4c106/src/state/index.ts#L14)
-- Refactor and refactor again.
