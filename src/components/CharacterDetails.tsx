@@ -98,10 +98,10 @@ const CharacterDetails = ({ character, isloading }: CharacterDetailsProps) => (
             <li>
               <Text> {character.origin.name} </Text>
             </li>
+            <li className="last-list">
+              <Text> {new Date(character.created).toLocaleDateString()} </Text>
+            </li>
           </div>
-          {/* <li className="last-list">
-        <Text> {new Date(character.created).toLocaleDateString()} </Text>
-      </li> */}
         </ul>
       </>
     )}
