@@ -48,6 +48,7 @@ Though it wasn't instructed, I handled the following edge cases for better app e
 - Refactor and refactor again.
 - Use `babel-plugin-styled-components` to remove unused css styles from styled components and also minify the generated css
 - Reduce app bundle size
+- Do proper code splitting so that components that aren't needed on the first load, are splitted away into their own separate chunks.
 
 ### Installation:
 
