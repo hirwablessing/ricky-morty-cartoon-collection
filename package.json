@@ -60,7 +60,7 @@
     "eslint": "^8.24.0",
     "postcss": "^8.4.17",
     "postcss-cli": "^10.0.0",
-    "tailwindcss": "^1.22.19"
+    "tailwindcss": "^3.1.8"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
@@ -68,5 +68,5 @@
       "eslint --cache --fix --ext .js,.jsx,ts,tsx, ."
     ]
   },
-  "packageManager": "yarn@3.2.3"
+  "packageManager": "yarn@1.22.19"
 }
