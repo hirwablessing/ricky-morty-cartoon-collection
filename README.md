@@ -2,10 +2,16 @@
 
 Within this codebase, I built the solution to a Frontend Engineer assessment on building a web app for listing characters from the Rick and Morty TV Show via the [REST Rick and Morty API](https://rickandmortyapi.com/documentation).
 
-<div style="display: flex; justify-content: center;" >
-![image](https://user-images.githubusercontent.com/50826640/194672859-b3161bc7-485c-4321-bc79-3f2d8e37ac59.png)
+- I built this app based on designs provided
 
-</div>
+<div style="display: flex; justify-content: center; gap: 20px;" >
+<img style="width: 800px; height: 500px;" src="https://res.cloudinary.com/dkndyyvmn/image/upload/v1665183464/3c022c21-60e9-42d1-918c-9db3f021adcf_uiuc4i.jpg" />
+<img style="width: 270px; height: 500px;" src="https://res.cloudinary.com/dkndyyvmn/image/upload/v1665183467/eba2ccf2-83aa-4b06-b2a1-9073f1f46d0e_jrbcxf.jpg" />
+</div><br><br>
+
+- I worked with tasks on a Kanban board (I used Microsoft Todo App)
+
+- I used single branches for all features
 
 ## Edge Cases Handled:
 
