@@ -80,7 +80,7 @@ interface HeaderProp {
 }
 
 const Header = ({ showMenu }: HeaderProp) => {
-  const isSidebarOpen = useSignal<boolean>(false);
+  const isSidebarOpen = useSignal(false);
   const location = useLocation();
 
   return (

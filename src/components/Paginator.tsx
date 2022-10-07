@@ -58,12 +58,12 @@ interface PaginatorProps {
 const Paginator = ({ itemSize }: PaginatorProps) => {
   const isMobile = usePageMatch(deviceSize.tablet);
 
-  const currentPage = useSignal<number>(1);
+  const currentPage = useSignal(1);
   const dispatch = useAppDispatch();
 
-  const paginators = useSignal<[number, number]>([0, 9]); // sequence of paginator numbers
+  const paginators = useSignal([0, 9]); // sequence of paginator numbers
 
-  const paginationRange = useSignal<Array<number>>(
+  const paginationRange = useSignal(
     createPaginationRange(paginators.value[0], paginators.value[1])
   );
 
