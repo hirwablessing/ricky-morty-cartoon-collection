@@ -65,3 +65,7 @@ Execute the command below to run the test suites;
 ```bash
     npm run test
 ```
+
+### Deployment
+
+As per instruction, I tried deploying the app on app.fleek.co but seems like it won't work. I manage to deploy the app on vercel and can be accessed from [here](https://fleek-frontend-assignment-znh3.vercel.app/)
