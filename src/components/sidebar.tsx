@@ -45,8 +45,8 @@ const Sidebar = ({ closeSidebar }: SidebarProps) => {
 
   // watches changes in select fields
   useEffect(() => {
-    fetchFilteredResult();
-  }, [gender, status.value]);
+    fetchFilteredResult(characterName.value);
+  }, [gender.value, status.value]);
 
   useEffect(
     () => filterByName(characterName.value),
@@ -74,7 +74,7 @@ const Sidebar = ({ closeSidebar }: SidebarProps) => {
           <FiSearch />
         </span>
         <input
-          value={characterName.toString()}
+          value={characterName.value}
           onChange={(e) => (characterName.value = e.target.value)}
           placeholder="Filter By Name"
         />
@@ -85,7 +85,7 @@ const Sidebar = ({ closeSidebar }: SidebarProps) => {
       <SelectDivContainer>
         <SelectContainer
           aria-label="Filter-By-Status"
-          defaultValue={status.toString()}
+          defaultValue={status.value}
           onChange={(e) => {
             status.value = e.target.value;
 
@@ -110,7 +110,7 @@ const Sidebar = ({ closeSidebar }: SidebarProps) => {
       <SelectDivContainer>
         <SelectContainer
           aria-label="Filter-By-gender"
-          defaultValue={gender.toString()}
+          defaultValue={gender.value}
           onChange={(e) => {
             gender.value = e.target.value;
 
