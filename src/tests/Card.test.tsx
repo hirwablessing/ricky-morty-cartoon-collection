@@ -1,8 +1,8 @@
 import { screen } from "@testing-library/react";
 import { Router } from "react-router-dom";
 
-import { createMemoryHistory } from "history";
 import Card from "../components/card";
+import history from "./history";
 import { renderWithProvider } from "./test-utils";
 
 const SampleCharacter = {
@@ -27,8 +27,6 @@ const SampleCharacter = {
 };
 
 const Component = () => {
-  const history = createMemoryHistory();
-
   return (
     <Router location={history.location} navigator={history}>
       <Card character={SampleCharacter} />
