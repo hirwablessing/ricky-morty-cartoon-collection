@@ -46,6 +46,8 @@ Though it wasn't instructed, I handled the following edge cases for better app e
 - Remove some eslint warnings shown in the console
 - Remove all any types on the frontend part like [here](https://github.com/hirwablessing/fleek-frontend-assignment/blob/8b6209d5b181b5d1589c28e9190cf0cf43f4c106/src/state/index.ts#L14)
 - Refactor and refactor again.
+- Use `babel-plugin-styled-components` to remove unused css styles from styled components and also minify the generated css
+- Reduce app bundle size
 
 ### Installation:
 
