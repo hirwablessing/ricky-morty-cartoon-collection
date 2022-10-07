@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import { restEndpoint } from "./apiService";
 
-export interface GetCharacterOpts {
+interface GetCharacterOpts {
   currentPage?: number;
   status?: string | boolean;
   name?: string | boolean;
