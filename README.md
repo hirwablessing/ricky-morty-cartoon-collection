@@ -3,8 +3,9 @@
 Within this codebase, I built the solution to a Frontend Engineer assessment on building a web app for listing characters from the Rick and Morty TV Show via the [REST Rick and Morty API](https://rickandmortyapi.com/documentation)
 
 <div style="display: flex; justify-content: center;" >
-<img style="width: 800px; height: 500px;" src="https://res.cloudinary.com/dkfptto8m/image/upload/v1656329058/job-assessment-screenshots/Screen_Shot_2022-06-27_at_12.20.56_PM.png" />
-<img style="width: 270px; height: 500px;" src="https://res.cloudinary.com/dkfptto8m/image/upload/v1656329057/job-assessment-screenshots/Screen_Shot_2022-06-27_at_12.21.07_PM.png" />
+![image](https://user-images.githubusercontent.com/50826640/194672615-4e8b9c09-7073-420c-bb11-d9505cd5373a.png)
+![image](https://user-images.githubusercontent.com/50826640/194672794-8e3b7939-eb82-4252-ad55-b9086b2db139.png)
+
 </div>
 
 ## Edge Cases Handled:
