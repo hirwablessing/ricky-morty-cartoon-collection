@@ -17,9 +17,9 @@ interface SidebarProps {
 }
 
 const Sidebar = ({ closeSidebar }: SidebarProps) => {
-  const characterName = useSignal<string>("");
-  const status = useSignal<string>("stat");
-  const gender = useSignal<string>("gen");
+  const characterName = useSignal("");
+  const status = useSignal("stat");
+  const gender = useSignal("gen");
   const dispatch = useAppDispatch();
 
   const fetchFilteredResult = (name = characterName.value) => {
