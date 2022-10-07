@@ -1,6 +1,6 @@
-# Fleek Front-End Assignment
+## How I worked on this project
 
-Within this codebase, I built the solution to a Frontend Engineer assessment on building a web app for listing characters from the Rick and Morty TV Show via the [REST Rick and Morty API](https://rickandmortyapi.com/documentation)
+Within this codebase, I built the solution to a Frontend Engineer assessment on building a web app for listing characters from the Rick and Morty TV Show via the [REST Rick and Morty API](https://rickandmortyapi.com/documentation).
 
 <div style="display: flex; justify-content: center;" >
 ![image](https://user-images.githubusercontent.com/50826640/194672859-b3161bc7-485c-4321-bc79-3f2d8e37ac59.png)
@@ -40,6 +40,12 @@ Though it wasn't instructed, I handled the following edge cases for better app e
 This component has a few E2E test suites setup using React-testing-library.
 Although I did not have much time left cover the entire application with test suites, I was able to create a test suite for the `Header` and `Card` components each.
 
+Execute the command below to run the test suites;
+
+```bash
+    npm run test
+```
+
 ### If I had more time I would change this
 
 - Set up continuous integration to run the tests and ESLint on every Pull Request
@@ -49,9 +55,3 @@ Although I did not have much time left cover the entire application with test su
 - Remove some eslint warnings shown in the console
 - Remove all any types on the frontend part like [here](https://github.com/hirwablessing/fleek-frontend-assignment/blob/8b6209d5b181b5d1589c28e9190cf0cf43f4c106/src/state/index.ts#L14)
 - Refactor and refactor again.
-
-Execute the command below to run the test suites;
-
-```bash
-    npm run test
-```
