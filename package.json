@@ -67,6 +67,5 @@
       "yarn prettier:fix",
       "eslint --cache --fix --ext .js,.jsx,ts,tsx, ."
     ]
-  },
-  "packageManager": "yarn@3.2.4"
+  }
 }
