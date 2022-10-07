@@ -58,7 +58,7 @@ const EpisodeTabs = ({ episodes }: EpisodeTabsProps) => {
 
   useEffect(() => {
     dispatch(getEpisodeDetails({ episodeId: currentEpisodeTab }));
-  }, [currentEpisodeTab]);
+  }, [currentEpisodeTab, dispatch]);
 
   return (
     <Tabs>

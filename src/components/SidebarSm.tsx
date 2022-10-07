@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { FiX } from "react-icons/fi";
 import { deviceSize } from "../utils/mediaQueryBreakpoints";
 import Sidebar from "./sidebar";
 import { ESCAPE_KEY, useKeyboardKey } from "../utils/useKeyboardKey";

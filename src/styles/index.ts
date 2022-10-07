@@ -15,7 +15,6 @@ export const Button = styled.button`
   }
 `;
 
-// @ts-ignore
 export const Text = styled.p`
   font-size: ${(props: { text?: string }) => props.text};
   width: 100%;

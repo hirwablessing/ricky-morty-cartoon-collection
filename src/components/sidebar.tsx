@@ -22,7 +22,7 @@ const Sidebar = ({ closeSidebar }: SidebarProps) => {
   const gender = useSignal<string>("gen");
   const dispatch = useAppDispatch();
 
-  const fetchFilteredResult = (name?: string) => {
+  const fetchFilteredResult = (name = characterName.value) => {
     dispatch(
       getCharacters({
         status: status.value !== "stat" && status.value,
@@ -36,7 +36,6 @@ const Sidebar = ({ closeSidebar }: SidebarProps) => {
     (name: string) => {
       if (name.length > 2) {
         debounce(() => {
-          // @ts-ignore
           dispatch(getCharacters({ name }));
         })();
       }
@@ -46,7 +45,7 @@ const Sidebar = ({ closeSidebar }: SidebarProps) => {
 
   // watches changes in select fields
   useEffect(() => {
-    fetchFilteredResult(characterName.value);
+    fetchFilteredResult();
   }, [gender, status.value]);
 
   useEffect(
@@ -58,7 +57,7 @@ const Sidebar = ({ closeSidebar }: SidebarProps) => {
     keyMatch: BACKSPACE_KEY,
     callback: () => {
       if (characterName.value.length <= 1) {
-        fetchFilteredResult();
+        fetchFilteredResult("");
       }
     },
   });

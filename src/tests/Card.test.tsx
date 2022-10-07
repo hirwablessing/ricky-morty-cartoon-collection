@@ -1,4 +1,4 @@
-import { render, screen } from "@testing-library/react";
+import { screen } from "@testing-library/react";
 import { Router } from "react-router-dom";
 
 import { createMemoryHistory } from "history";

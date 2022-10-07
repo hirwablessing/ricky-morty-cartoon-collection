@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { AiOutlineArrowUp } from "react-icons/ai";
 import { Text } from "../styles/";
-import { deviceSize } from "../utils/mediaQueryBreakpoints";
 
 const FABContainer = styled.div`
   border: 1.5px solid transparent;
@@ -10,26 +9,24 @@ const FABContainer = styled.div`
   width: 40px;
   height: 40px;
 
-  display: none;
-  place-items: center;
-  justify-content: center;
-
   position: absolute;
   bottom: 0;
   right: -20px;
   margin-right: 20px;
   margin-bottom: 10px;
-  .up-arrow {
-    height: 30px;
-  }
 
   .up-arrow {
-    font-size: 20px;
+    height: 20px;
+    width: 20px;
     color: #fff;
-  }
-
-  @media ${deviceSize.tablet} {
+    border: 1px solid transparent;
     display: flex;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
   }
 `;
 
