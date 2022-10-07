@@ -4,7 +4,7 @@ Within this codebase, I built the solution to a Frontend Engineer assessment on 
 
 - I built this app based on designs provided
 
-<div style="display: flex; justify-content: center; gap: 10px;" >
+<div style="display: flex; justify-content: center; gap: 3px;" >
 <img style="width: 800px; height: 500px;" src="https://res.cloudinary.com/dkndyyvmn/image/upload/v1665183464/3c022c21-60e9-42d1-918c-9db3f021adcf_uiuc4i.jpg" />
 <img style="width: 270px; height: 500px;" src="https://res.cloudinary.com/dkndyyvmn/image/upload/v1665183467/eba2ccf2-83aa-4b06-b2a1-9073f1f46d0e_jrbcxf.jpg" />
 </div><br><br>
