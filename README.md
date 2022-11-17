@@ -44,7 +44,7 @@ Though it wasn't instructed, I handled the following edge cases for better app e
 - Add end-to-end tests with Cypress.
 - Add validations to my forms and asynchronous codes.
 - Remove some eslint warnings shown in the console
-- Remove all any types on the frontend part like [here](https://github.com/hirwablessing/fleek-frontend-assignment/blob/8b6209d5b181b5d1589c28e9190cf0cf43f4c106/src/state/index.ts#L14)
+- Remove all any types on the frontend part like [here](https://github.com/hirwablessing/ricky-morty-cartoon-collection/blob/8b6209d5b181b5d1589c28e9190cf0cf43f4c106/src/state/index.ts#L14)
 - Refactor and refactor again.
 - Use `babel-plugin-styled-components` to remove unused css styles from styled components and also minify the generated css
 - Reduce app bundle size
@@ -71,4 +71,4 @@ Execute the command below to run the test suites;
 
 ### Deployment
 
-As per instruction, I tried deploying the app on app.fleek.co but seems like it won't work. I manage to deploy the app on vercel and can be accessed from [here](https://fleek-frontend-assignment-znh3.vercel.app/)
+As per instruction, I tried deploying the app on app.fleek.co but seems like it won't work. I manage to deploy the app on vercel and can be accessed from [here](https://rick-morty-episodes.vercel.app/)
